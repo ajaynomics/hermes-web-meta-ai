@@ -1,0 +1,10 @@
+name: web-meta-ai
+version: 0.1.0
+description: "Meta Web Search — web_search via the server-side web_search tool on Meta's Responses API (Muse Spark). Requires MODEL_API_KEY."
+author: Ajay Krishnan
+kind: backend
+requires_hermes: ">=0.21.3"
+provides_web_providers:
+  - meta-ai
+requires_env:
+  - MODEL_API_KEY
